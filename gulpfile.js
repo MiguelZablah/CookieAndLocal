@@ -13,4 +13,24 @@ gulp.task('build', function() {
         .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('default', ['build']);
+gulp.task('buildLocal', function() {
+    gulp.src('src/js/localStorage-controller.js')
+        .pipe(concat('localStorage.js'))
+        .pipe(babel({
+            presets: ['env']
+        }))
+        .pipe(minify())
+        .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('buildCookie', function() {
+    gulp.src('src/js/cookie-controller.js')
+        .pipe(concat('cookies.js'))
+        .pipe(babel({
+            presets: ['env']
+        }))
+        .pipe(minify())
+        .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('default', ['build', 'buildLocal', 'buildCookie']);

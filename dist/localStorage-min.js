@@ -1,0 +1,1 @@
+"use strict";var localStorage=function(e){return{create:function(t,l){e.localStorage.setItem(t,l)},read:function(t){return e.localStorage.getItem(t)},delete:function(t){e.localStorage.removeItem(t)},deleteAll:function(){e.localStorage.clear()}}}(global);
