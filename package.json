@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/MiguelZablah/CookieAndLocal/issues"
   },
-  "homepage": "https://github.com/MiguelZablah/CookieAndLocal#readme"
+  "homepage": "https://github.com/MiguelZablah/CookieAndLocal#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "g": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^2.1.0"
+  }
 }
