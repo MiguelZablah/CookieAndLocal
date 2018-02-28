@@ -5,11 +5,11 @@ Cookies and Local Storage controller for general use
 
 In a browser:
 ```html
-<script src="cookieLocal.js"></script>
+<script src="cookiesandlocal.js"></script>
 ```
 
 Using npm:
 ```shell
 $ npm i -g npm
-$ npm i --save cookieLocal
+$ npm i --save cookiesandlocal
 ```
