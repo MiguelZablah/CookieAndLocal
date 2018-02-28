@@ -2,7 +2,7 @@
   "name": "cookiesandlocal",
   "version": "1.0.0",
   "description": "Cookies and Local storage controllers for easy general use",
-  "main": "index.js",
+  "main": "./dist/cookiesandlocal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
