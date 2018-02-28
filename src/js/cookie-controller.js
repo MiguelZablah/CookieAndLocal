@@ -1,5 +1,5 @@
 /* Cookie Controller */
-var cookieController = (function(){
+var cookie = (function(){
 
     // Create Cookie
     var createsCookie = function(cookieName, cookieValue, days) {
@@ -14,11 +14,11 @@ var cookieController = (function(){
 
     return{
         
-        createCookie: function(cookieName, cookieValue, days = 10) {
+        create: function(cookieName, cookieValue, days = 10) {
             createsCookie(cookieName, cookieValue, days);
         },
         
-        readCookie: function(cookieName) {
+        read: function(cookieName) {
             var nameEQ = cookieName + "=";
             var ca = document.cookie.split(';');
             for(var i=0;i < ca.length;i++) {
@@ -29,7 +29,7 @@ var cookieController = (function(){
             return null;
         },
 
-        eraseCookie: function(cookieName) {
+        erase: function(cookieName) {
             createsCookie(cookieName,"",-1);
         }
     };

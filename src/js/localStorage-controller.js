@@ -1,21 +1,21 @@
 /* Local Storage Controller */
-var localStorageController = (function(window){
+var localStorage = (function(window){
 
     return{
         
-        createLocalStorage: function(localStorageKey, localStorageValue) {
+        create: function(localStorageKey, localStorageValue) {
             window.localStorage.setItem(localStorageKey, localStorageValue);
         },
         
-        readsLocalStorage: function(localStorageKey) {
+        read: function(localStorageKey) {
             return window.localStorage.getItem(localStorageKey);
         },
 
-        deleteSpecificLocalStorage: function(localStorageKey) {
+        delete: function(localStorageKey) {
             window.localStorage.removeItem(localStorageKey);
         },
 
-        deleteAllLocalStorage: function() {
+        deleteAll: function() {
             window.localStorage.clear();
         }
     };
