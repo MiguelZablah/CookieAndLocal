@@ -1,6 +1,6 @@
 {
   "name": "cookiesandlocal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cookies and Local storage controllers for easy general use",
   "main": "./dist/cookiesandlocal.js",
   "scripts": {
