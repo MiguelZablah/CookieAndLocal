@@ -1,0 +1,25 @@
+{
+  "name": "cookiesandlocal",
+  "version": "1.0.0",
+  "description": "Cookies and Local storage controllers for easy general use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelZablah/CookieAndLocal.git"
+  },
+  "keywords": [
+    "javascript",
+    "cookies",
+    "local",
+    "storage"
+  ],
+  "author": "Zablah <miguel12979@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelZablah/CookieAndLocal/issues"
+  },
+  "homepage": "https://github.com/MiguelZablah/CookieAndLocal#readme"
+}
